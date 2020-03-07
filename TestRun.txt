@@ -1,0 +1,130 @@
+
+Enter the minimum number of marbles in your pile: 10
+Enter the maximum number of marbles in your pile: 100
+Game begins
+Initially there are 56 marbles in the pile
+Human's turn:    Removed 16 marble(s).	Current number of marbles: 40
+Computer's turn: Removed 3 marble(s).	Current number of marbles: 37
+Human's turn:    Removed 14 marble(s).	Current number of marbles: 23
+Computer's turn: Removed 11 marble(s).	Current number of marbles: 12
+Human's turn:    Removed 5 marble(s).	Current number of marbles: 7
+Computer's turn: Removed 3 marble(s).	Current number of marbles: 4
+Human's turn:    Removed 1 marble(s).	Current number of marbles: 3
+Computer's turn: Removed 1 marble(s).	Current number of marbles: 2
+Human's turn:    Removed 1 marble(s).	Current number of marbles: 1
+Human Wins!!
+Do you want to play the game again? Enter Yes or No: yes
+
+Enter the minimum number of marbles in your pile: 10
+Enter the maximum number of marbles in your pile: 120
+Game begins
+Initially there are 85 marbles in the pile
+Human's turn:    Removed 21 marble(s).	Current number of marbles: 64
+Computer's turn: Removed 1 marble(s).	Current number of marbles: 63
+Human's turn:    Removed 15 marble(s).	Current number of marbles: 48
+Computer's turn: Removed 17 marble(s).	Current number of marbles: 31
+Human's turn:    Removed 11 marble(s).	Current number of marbles: 20
+Computer's turn: Removed 5 marble(s).	Current number of marbles: 15
+Human's turn:    Removed 1 marble(s).	Current number of marbles: 14
+Computer's turn: Removed 7 marble(s).	Current number of marbles: 7
+Human's turn:    Removed 3 marble(s).	Current number of marbles: 4
+Computer's turn: Removed 1 marble(s).	Current number of marbles: 3
+Human's turn:    Removed 1 marble(s).	Current number of marbles: 2
+Computer's turn: Removed 1 marble(s).	Current number of marbles: 1
+Computer Wins!!
+Do you want to play the game again? Enter Yes or No: YeS
+
+Enter the minimum number of marbles in your pile: 10
+Enter the maximum number of marbles in your pile: 125
+Game begins
+Initially there are 123 marbles in the pile
+Computer's turn: Removed 60 marble(s).	Current number of marbles: 63
+Human's turn:    Removed 15 marble(s).	Current number of marbles: 48
+Computer's turn: Removed 17 marble(s).	Current number of marbles: 31
+Human's turn:    Removed 10 marble(s).	Current number of marbles: 21
+Computer's turn: Removed 6 marble(s).	Current number of marbles: 15
+Human's turn:    Removed 4 marble(s).	Current number of marbles: 11
+Computer's turn: Removed 4 marble(s).	Current number of marbles: 7
+Human's turn:    Removed 2 marble(s).	Current number of marbles: 5
+Computer's turn: Removed 2 marble(s).	Current number of marbles: 3
+Human's turn:    Removed 1 marble(s).	Current number of marbles: 2
+Computer's turn: Removed 1 marble(s).	Current number of marbles: 1
+Computer Wins!!
+Do you want to play the game again? Enter Yes or No: YES
+
+Enter the minimum number of marbles in your pile: 10
+Enter the maximum number of marbles in your pile: 125
+Game begins
+Initially there are 63 marbles in the pile
+Human's turn:    Removed 5 marble(s).	Current number of marbles: 58
+Computer's turn: Removed 2 marble(s).	Current number of marbles: 56
+Human's turn:    Removed 6 marble(s).	Current number of marbles: 50
+Computer's turn: Removed 12 marble(s).	Current number of marbles: 38
+Human's turn:    Removed 11 marble(s).	Current number of marbles: 27
+Computer's turn: Removed 11 marble(s).	Current number of marbles: 16
+Human's turn:    Removed 3 marble(s).	Current number of marbles: 13
+Computer's turn: Removed 3 marble(s).	Current number of marbles: 10
+Human's turn:    Removed 4 marble(s).	Current number of marbles: 6
+Computer's turn: Removed 3 marble(s).	Current number of marbles: 3
+Human's turn:    Removed 1 marble(s).	Current number of marbles: 2
+Computer's turn: Removed 1 marble(s).	Current number of marbles: 1
+Computer Wins!!
+Do you want to play the game again? Enter Yes or No: yES
+
+Enter the minimum number of marbles in your pile: 20
+Enter the maximum number of marbles in your pile: 200
+Game begins
+Initially there are 152 marbles in the pile
+Computer's turn: Removed 18 marble(s).	Current number of marbles: 134
+Human's turn:    Removed 37 marble(s).	Current number of marbles: 97
+Computer's turn: Removed 13 marble(s).	Current number of marbles: 84
+Human's turn:    Removed 6 marble(s).	Current number of marbles: 78
+Computer's turn: Removed 6 marble(s).	Current number of marbles: 72
+Human's turn:    Removed 21 marble(s).	Current number of marbles: 51
+Computer's turn: Removed 3 marble(s).	Current number of marbles: 48
+Human's turn:    Removed 23 marble(s).	Current number of marbles: 25
+Computer's turn: Removed 3 marble(s).	Current number of marbles: 22
+Human's turn:    Removed 2 marble(s).	Current number of marbles: 20
+Computer's turn: Removed 4 marble(s).	Current number of marbles: 16
+Human's turn:    Removed 4 marble(s).	Current number of marbles: 12
+Computer's turn: Removed 1 marble(s).	Current number of marbles: 11
+Human's turn:    Removed 5 marble(s).	Current number of marbles: 6
+Computer's turn: Removed 1 marble(s).	Current number of marbles: 5
+Human's turn:    Removed 2 marble(s).	Current number of marbles: 3
+Computer's turn: Removed 1 marble(s).	Current number of marbles: 2
+Human's turn:    Removed 1 marble(s).	Current number of marbles: 1
+Human Wins!!
+
+Do you want to play the game again? Enter Yes or No: yes
+
+Enter the minimum number of marbles in your pile: 20
+Enter the maximum number of marbles in your pile: 5000
+Game begins
+Initially there are 4453 marbles in the pile
+Human's turn:    Removed 70 marble(s).	Current number of marbles: 4383
+Computer's turn: Removed 288 marble(s).	Current number of marbles: 4095
+Human's turn:    Removed 946 marble(s).	Current number of marbles: 3149
+Computer's turn: Removed 1102 marble(s).	Current number of marbles: 2047
+Human's turn:    Removed 964 marble(s).	Current number of marbles: 1083
+Computer's turn: Removed 60 marble(s).	Current number of marbles: 1023
+Human's turn:    Removed 126 marble(s).	Current number of marbles: 897
+Computer's turn: Removed 386 marble(s).	Current number of marbles: 511
+Human's turn:    Removed 36 marble(s).	Current number of marbles: 475
+Computer's turn: Removed 220 marble(s).	Current number of marbles: 255
+Human's turn:    Removed 9 marble(s).	Current number of marbles: 246
+Computer's turn: Removed 119 marble(s).	Current number of marbles: 127
+Human's turn:    Removed 31 marble(s).	Current number of marbles: 96
+Computer's turn: Removed 33 marble(s).	Current number of marbles: 63
+Human's turn:    Removed 25 marble(s).	Current number of marbles: 38
+Computer's turn: Removed 7 marble(s).	Current number of marbles: 31
+Human's turn:    Removed 4 marble(s).	Current number of marbles: 27
+Computer's turn: Removed 12 marble(s).	Current number of marbles: 15
+Human's turn:    Removed 3 marble(s).	Current number of marbles: 12
+Computer's turn: Removed 5 marble(s).	Current number of marbles: 7
+Human's turn:    Removed 2 marble(s).	Current number of marbles: 5
+Computer's turn: Removed 2 marble(s).	Current number of marbles: 3
+Human's turn:    Removed 1 marble(s).	Current number of marbles: 2
+Computer's turn: Removed 1 marble(s).	Current number of marbles: 1
+Computer Wins!!
+Do you want to play the game again? Enter Yes or No: no
+Good bye!
