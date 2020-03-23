@@ -2,7 +2,7 @@
  * 
  *
  * @author Michael Cummings
- * @version 1, 3.10.2020
+ * @version 2, 3.23.2020
  */
 import java.util.Random;
 import java.util.Scanner;
@@ -24,7 +24,7 @@ public class GameOfNim {
     /**
      * Defines the win conditions for the game
      */
-   private void winConditions() {
+    private void winConditions() {
         if (marblesInPile == 1) {
             if (humanTurnCount > computerTurnCount) {
                 System.out.println("You win!");
@@ -40,6 +40,9 @@ public class GameOfNim {
      */
     private void humanTurn() {
         Scanner input = new Scanner(System.in);
+        if (marblesInPile == 1) {
+            int marblesToTake = 0;
+        }
         while(true){
             System.out.println("Please enter how many marbles you want to take from the pile: ");
             int marblesToTake = input.nextInt();
@@ -73,31 +76,75 @@ public class GameOfNim {
      * 
      */
     private void smartComputerTurn() {
-    
+        int closestPowerOfTwo = 0;
+        for (int i = 0; closestPowerOfTwo < (marblesInPile / 2); i++) {
+            closestPowerOfTwo = (int)(Math.pow(2, i));
+        }
+        if (marblesInPile == (closestPowerOfTwo - 1)) { //FIXME: Only works for the closestPowerOfTwo
+            dumbComputerTurn(); //if the size of the pile is already a power of two minus one, the computer will make a random move
+        }
+        else if (marblesInPile < 3){
+            int marblesToTake = 1;
+            computerTurnCount += 1;
+        }
+        else if (marblesInPile == 1) {
+            int marblesToTake = 0;
+        }
+        else {
+        int marblesToTake = (marblesInPile - closestPowerOfTwo) + 1; //computer will take enough marbles to make the size of the pile a power of 2 minus 1
+        marblesInPile -= marblesToTake; //FIXME: Computer makes illegal moves by taking more than half the pile
+        System.out.println("The computer took " + marblesToTake + " marbles from the pile. There are now " + marblesInPile + " marbles in the pile.");
+        computerTurnCount += 1;
+        }
     }
     
     /**
      * Simulates a game of Nim against a computer-controlled player
      */
     public void play() {
-        marblesInPile = randomGenerator.nextInt(maxMarbles) + minMarbles;
+        marblesInPile = randomGenerator.nextInt(maxMarbles - minMarbles) + minMarbles;
         
         System.out.println("Game begins");
         System.out.println("Initially there are " + marblesInPile + " marbles in the pile");
         
-        //int turnDecide = randomGenerator.nextInt(1); //decides whether the human or computer goes first depending on whether a 0 or a 1 is generated
-        //if (turnDecide == 1) {
-        
-        while (marblesInPile > 1) {
-           humanTurn();
-           dumbComputerTurn();
+        int turnDecide = randomGenerator.nextInt(2) + 1; //decides whether the human or computer goes first depending on whether a 1 or a 2 is generated
+        int computerDecide = randomGenerator.nextInt(2) + 1; //decides between smart and dumb computer
+        if (turnDecide % 2 == 1) {
+            if (computerDecide % 2 == 1) {
+                System.out.println("You are playing against the DUMB computer"); //Remove this message later, just need for testing
+                System.out.println("You will go first.");
+                while (marblesInPile > 1) {
+                humanTurn();
+                dumbComputerTurn();
+                }
+            }
+            else {
+                System.out.println("You are playing against the SMART computer"); //Remove this message later, just need for testing
+                System.out.println("You will go first.");
+                while (marblesInPile > 1) {
+                humanTurn();
+                smartComputerTurn();
+                }
+            }
         }
-            
+        else {
+            if (computerDecide % 2 == 1) {
+                System.out.println("You are playing against the DUMB computer"); //Remove this message later, just need for testing
+                System.out.println("The computer will go first.");
+                while (marblesInPile > 1) {
+                dumbComputerTurn();
+                humanTurn();
+                }
+            }
+            else {
+                System.out.println("You are playing against the SMART computer"); //Remove this message later, just need for testing
+                System.out.println("The computer will go first.");
+                while (marblesInPile > 1) {
+                    smartComputerTurn();
+                    humanTurn();
+                }
+            }
+        }
         winConditions();
     }
-        
-        
-
-        
-    //}
 }
