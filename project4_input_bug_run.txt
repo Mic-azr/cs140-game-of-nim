@@ -1,0 +1,29 @@
+Enter the minimum number of marbles in your pile: 20
+Enter the maximum number of marbles in your pile: 50
+Game begins
+Initially there are 21 marbles in the pile
+You are playing against the SMART computer
+The computer will go first.
+The computer took 6 marbles from the pile. There are now 15 marbles in the pile.
+Please enter how many marbles you want to take from the pile: 
+7
+You took 7 marbles from the pile. There are now 8 marbles in the pile.
+The computer took 1 marbles from the pile. There are now 7 marbles in the pile.
+Please enter how many marbles you want to take from the pile: 
+33
+Please enter a valid number of marbles to take (number must be a positive integer, and not more than half the number of marbles in the pile)
+Please enter how many marbles you want to take from the pile: 
+3
+You took 3 marbles from the pile. There are now 4 marbles in the pile.
+The computer took 1 marbles from the pile. There are now 3 marbles in the pile.
+Please enter how many marbles you want to take from the pile: 
+1
+You took 1 marbles from the pile. There are now 2 marbles in the pile.
+The computer took 1 marbles from the pile. There are now 1 marbles in the pile.
+The computer wins!
+5
+1
+000
+blue
+
+""
